@@ -34,7 +34,7 @@ on:
   workflow_dispatch:
 
 env:
-  APP_NAME: flask-api-template
+  APP_NAME: flask-web-template
 
 jobs:
   Build:
