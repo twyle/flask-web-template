@@ -108,7 +108,7 @@ make test
 
 ## Meta
 
-Lyle Okoth – [@lylethedesigner](https://twitter.com/lylethedesigner) – [lyle okoth](https://medium.com/@lyle-okoth) lyceokoth@gmail.com
+Lyle Okoth – [@lylethedesigner](https://twitter.com/lylethedesigner) on twitter – [lyle okoth](https://medium.com/@lyle-okoth) on medium, and my email is lyceokoth@gmail.com
 
 Distributed under the MIT license. See ``LICENSE`` for more information.
 
@@ -116,7 +116,7 @@ Distributed under the MIT license. See ``LICENSE`` for more information.
 
 ## Contributing
 
-1. Fork it (<https://github.com/yourname/yourproject/fork>)
+1. Fork it https://github.com/twyle/flask-web-template/fork
 2. Create your feature branch (`git checkout -b feature/fooBar`)
 3. Commit your changes (`git commit -am 'Add some fooBar'`)
 4. Push to the branch (`git push origin feature/fooBar`)
