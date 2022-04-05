@@ -18,9 +18,11 @@ test: lint
 	@echo "\n${BLUE} Running the tests..."
 	@SECRET_KEY=secret_key FLASK_ENV=development venv/bin/python3 -m  pytest
 
-install: requirements.txt requirements-dev.txt
-	@pip install -r requirements-dev.txt
+install: requirements.txt 
 	@pip install -r requirements.txt
+
+install-dev: requirements-dev.txt
+	@pip install -r requirements-dev.txt
 
 run: 
 	@echo SECRET_KEY=secret_key"\n"FLASK_ENV=development"\n"APP=app.py"\n" > .env 

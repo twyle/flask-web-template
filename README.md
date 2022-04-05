@@ -57,7 +57,7 @@ venv\\Scripts\\Activate
 make install
 ```
 
-### Run the tests to ensure that everything works.
+### Run the tests to ensure that everything works (not neccessary).
 
 ```sh
 make test
@@ -77,11 +77,18 @@ _For more examples and usage, please refer to the [Wiki][wiki]._
 
 ## Development setup
 
-Describe how to install all development dependencies and how to run an automated test-suite of some kind. Potentially do this for multiple platforms.
+Here is how to setup your development environment incase you want to play around with this project.
+
+### Install the development dependencies (make sure you have set up the virtual environment as stated above and are in the project folder)
 
 ```sh
-make install
-npm test
+make install-dev
+```
+
+### Run the unit tests
+
+```sh
+make test
 ```
 
 ## Release History
@@ -101,11 +108,11 @@ npm test
 
 ## Meta
 
-Your Name – [@YourTwitter](https://twitter.com/dbader_org) – YourEmail@example.com
+Lyle Okoth – [@lylethedesigner](https://twitter.com/lylethedesigner) – [lyle okoth](https://medium.com/@lyle-okoth) lyceokoth@gmail.com
 
-Distributed under the XYZ license. See ``LICENSE`` for more information.
+Distributed under the MIT license. See ``LICENSE`` for more information.
 
-[https://github.com/yourname/github-link](https://github.com/dbader/)
+[https://github.com/twyle/github-link](https://github.com/twyle/)
 
 ## Contributing
 
