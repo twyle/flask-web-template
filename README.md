@@ -57,12 +57,6 @@ venv\\Scripts\\Activate
 make install
 ```
 
-### Run the tests to ensure that everything works (not neccessary).
-
-```sh
-make test
-```
-
 ### Run the application.
 
 ```sh
