@@ -1,5 +1,5 @@
-# Product Name
-> Short blurb about what your product does.
+# Flask Web Template
+> This is a template for setting up a Web application built with flask and deployed on Heroku.
 
 [![NPM Version][npm-image]][npm-url]
 [![Build Status][travis-image]][travis-url]
@@ -11,16 +11,60 @@ One to two paragraph statement about your product and what it does.
 
 ## Installation
 
-OS X & Linux:
+### Clone the [Flask-web-template repo](https://github.com/twyle/flask-web-template.git)
 
 ```sh
-npm install my-crazy-module --save
+git clone https://github.com/twyle/flask-web-template.git
+```
+
+### Navigate into the cloned repo
+
+```sh
+cd flask-web-template
+```
+
+OS X & Linux:
+
+### Create a Python3 Virtual Environment.
+
+```sh
+python3 -m venv venv
 ```
 
 Windows:
 
 ```sh
-edit autoexec.bat
+python3 -m venv venv
+```
+
+### Activate the Virtual Environment.
+
+```sh
+source venv/bin/activate
+```
+
+Windows:
+
+```sh
+venv\\Scripts\\Activate
+```
+
+### Install the Project dependencies.
+
+```sh
+make install
+```
+
+### Run the tests to ensure that everything works.
+
+```sh
+make test
+```
+
+### Run the application.
+
+```sh
+make run
 ```
 
 ## Usage example
