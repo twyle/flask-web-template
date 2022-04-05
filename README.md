@@ -23,9 +23,9 @@ git clone https://github.com/twyle/flask-web-template.git
 cd flask-web-template
 ```
 
-OS X & Linux:
-
 ### Create a Python3 Virtual Environment.
+
+OS X & Linux:
 
 ```sh
 python3 -m venv venv
@@ -38,6 +38,8 @@ python3 -m venv venv
 ```
 
 ### Activate the Virtual Environment.
+
+OS X & Linux:
 
 ```sh
 source venv/bin/activate
